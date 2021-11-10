@@ -1,0 +1,186 @@
+
+*{
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    height: 48px;
+    width: 100%;
+    padding-top: 17px;
+}
+
+.flex {
+    display: flex;
+}
+
+#bars {
+    padding-top: 10px;
+    display: none;
+}
+
+#navbar {
+    width: 200px;
+    height: 700px;
+    position: absolute;
+    display: none;
+}
+
+#navbar a {
+    color: black;
+}
+
+.navdiv {
+    margin-top: 20px;
+    width: 100%;
+    height: 33px;
+}
+
+#icon {
+    color:  #fff;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+
+i {
+    color: #fff;
+    font-size: 20px;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background-color: #000;
+    margin-right: 5px;
+}
+
+.container {
+    width: 68%;
+    height: 1290px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 50px;
+}
+
+.products {
+    width: 67%;
+    height: 1160px;
+    margin-top: 30px;
+}
+
+.divs {
+    width: 31%;
+    height: 550px;
+    border-radius: 10px; 
+    justify-content: space-between;
+}
+
+#div2 {
+    margin-top: 50px;
+}
+
+.cards {
+    box-shadow: 0 0 3px 2px #E0E0E0 ;
+    height: 240px;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.one {
+    box-shadow: 0 0 0.5px 0.5px #797979;
+    width: 100%;
+    height: 280px;
+    line-height: 35px;
+    padding-top: 30px;
+}
+
+.cards2 {
+    width: 40%;
+}
+
+.one h2 {
+    color: #62B2F1;
+}
+
+@media  (max-width: 500px) {
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100vw;
+        height: 40px;
+    }
+
+    #header {
+        font-size: 25px;
+    }
+
+    span {
+        display: none;
+    }
+
+    #bars{
+        display: inline;
+        font-size:15px;
+        margin: 10px 0px 0 0;
+    }
+    #icon{
+        display: none;
+    }
+
+    p {
+        font-size: 38px;
+        margin-left: 49px;
+    }
+
+    .container {
+        width: 100vw;
+      }
+
+    .products {
+        width: 80%;
+    }
+
+    .products #div1, .products #div2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divs {
+        width: 90%;
+        height: 480px;
+        margin-bottom: 10px;
+    }
+
+    #div2 {
+        margin-top: 5px;
+    }
+    
+    .cards {
+        height: 300px;
+    }
+
+    .one {
+        height: 135px;
+    }
+
+    .cards2 {
+        width: 80%;
+    }
+}
